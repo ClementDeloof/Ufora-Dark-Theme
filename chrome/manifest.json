@@ -1,0 +1,25 @@
+{
+  "name": "Ufora Dark Theme",
+  "version": "0.0.1",
+  "description": "Dark Theme extension for Ufora",
+  "background": {
+    "scripts": ["src/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/logo_16.png",
+      "32": "assets/logo_32.png",
+      "48": "assets/logo_48.png",
+      "128": "assets/logo_128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/logo_16.png",
+    "32": "assets/logo_32.png",
+    "48": "assets/logo_48.png",
+    "128": "assets/logo_128.png"
+  },
+  "manifest_version": 2
+}
