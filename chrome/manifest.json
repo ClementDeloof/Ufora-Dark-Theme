@@ -2,6 +2,7 @@
   "name": "Ufora Dark Theme",
   "version": "0.0.1",
   "description": "Dark Theme extension for Ufora",
+  "permissions": ["storage"],
   "background": {
     "scripts": ["src/background.js"],
     "persistent": false
