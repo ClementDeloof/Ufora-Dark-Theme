@@ -1,0 +1,9 @@
+/** @format */
+
+:root {
+  --light-grey: rgb(255, 255, 255);
+}
+
+.d2l-typography {
+  background-color: red !important;
+}

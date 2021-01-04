@@ -2,9 +2,9 @@
   "name": "Ufora Dark Theme",
   "version": "0.0.1",
   "description": "Dark Theme extension for Ufora",
-  "permissions": ["storage"],
+  "permissions": ["declarativeContent", "storage", "tabs", "https://ufora.ugent.be/*"],
   "background": {
-    "scripts": ["src/background.js"],
+    "scripts": ["./background.js"],
     "persistent": false
   },
   "page_action": {
