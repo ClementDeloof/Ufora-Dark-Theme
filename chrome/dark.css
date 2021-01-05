@@ -11,41 +11,83 @@
   --dark-grey: rgb(53, 60, 71);
 }
 
+/* Main background */
 .d2l-body {
   background-color: var(--dark-grey) !important;
 }
 
-/* Font colour */
+/* Font */
 .d2l-typography {
   color: var(--light-grey) !important;
 }
 
+/* Page background */
 .d2l-homepage {
   background-color: var(--dark-grey) !important;
 }
 
+/* Links */
 .d2l-link:link {
   color: var(--light-grey) !important;
 }
 
+/* Link, when already visited */
 .d2l-link:visited {
   color: var(--light-grey-2) !important;
 }
 
+/* Link in text */
 .d2l-htmlblock a:link {
   color: var(--light-grey) !important;
 }
 
-.d2l-icon {
-  transition: none !important;
-  color: red !important;
+/* Link in text */
+.d2l-htmlblock a:visited {
+  color: var(--light-grey-2) !important;
 }
 
+/* Item list divisor */
 .vui-list > li {
-  border-top: var(--light-grey-2) !important;
+  border-top: 1px solid var(--light-grey-2) !important;
+}
+
+/* Ignore first list divisor */
+.vui-list > li:first-child {
+  border-top-color: transparent !important;
 }
 
 /* Tile cards */
 .d2l-tile {
   background-color: var(--grey) !important;
+}
+
+/* Blue top bar */
+.d2l-branding-navigation-background-color {
+  background-color: var(--grey) !important;
+}
+
+/* Top bar links */
+.d2l-navigation-s-link,
+.d2l-navigation-s-group-text {
+  color: var(--light-grey) !important;
+}
+
+/* Course title in topbar */
+.d2l-navigation-s-title-container .d2l-navigation-s {
+  color: var(--light-grey) !important;
+}
+
+/* White strip above top bar */
+.d2l-navigation-s {
+  background-color: var(--dark-grey) !important;
+}
+
+/* Username (top-right) */
+.d2l-navigation-s-personal-menu-text {
+  color: var(--light-grey) !important;
+}
+
+/* Icons */
+d2l-icon {
+  color: var(--light-grey);
 }

@@ -28,5 +28,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   const regex = RegExp("^https://ufora.ugent.be/*");
   if (regex.test(tab.url)) {
     chrome.tabs.insertCSS(null, { file: "./dark.css" });
+    chrome.tabs.executeScript(null, { file: "./foreground.js" }, () => {});
   }
 });

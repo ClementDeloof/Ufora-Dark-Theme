@@ -1,3 +1,3 @@
 /** @format */
 
-// document.querySelector(".d2l-typography").classList.add("test");
+// TODO replace icons & images with dark mode versions
