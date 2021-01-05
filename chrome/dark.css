@@ -1,9 +1,51 @@
 /** @format */
 
 :root {
+  /* Main font colour */
   --light-grey: rgb(255, 255, 255);
+  /* Font colour, a bit darker */
+  --light-grey-2: rgb(165, 165, 165);
+  /* Main background colour */
+  --grey: rgb(63, 70, 81);
+  /* Background colour, a bit darker */
+  --dark-grey: rgb(53, 60, 71);
 }
 
+.d2l-body {
+  background-color: var(--dark-grey) !important;
+}
+
+/* Font colour */
 .d2l-typography {
-  background-color: red !important;
+  color: var(--light-grey) !important;
+}
+
+.d2l-homepage {
+  background-color: var(--dark-grey) !important;
+}
+
+.d2l-link:link {
+  color: var(--light-grey) !important;
+}
+
+.d2l-link:visited {
+  color: var(--light-grey-2) !important;
+}
+
+.d2l-htmlblock a:link {
+  color: var(--light-grey) !important;
+}
+
+.d2l-icon {
+  transition: none !important;
+  color: red !important;
+}
+
+.vui-list > li {
+  border-top: var(--light-grey-2) !important;
+}
+
+/* Tile cards */
+.d2l-tile {
+  background-color: var(--grey) !important;
 }
